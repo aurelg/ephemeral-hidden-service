@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ephemeral-hidden-service"
+version = "0.1.0"
+description = ""
+authors = ["Aurélien Grosdidier <aurelien.grosdidier@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+stem = "^1.8.2"
+click = "^8.1.7"
+cryptography = "^41.0.5"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+isort = "^5.12.0"
+ruff = "^0.1.2"
+ipdb = "^0.13.13"
+
+[tool.poetry.scripts]
+ephemeral-hidden-service = 'ephemeral_hidden_service.cli:start_ephemeral_service'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
