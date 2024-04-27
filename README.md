@@ -17,9 +17,9 @@ accessible.
 
 ```sh
 # With pip
-pip install --user https://gihub.com/aurelg/ephemeral-hidden-service
+pip install --user https://github.com/aurelg/ephemeral-hidden-service
 # With pipx, recommended
-pipx install https://gihub.com/aurelg/ephemeral-hidden-service
+pipx install https://github.com/aurelg/ephemeral-hidden-service
 ```
 
 # Usage
